@@ -1,0 +1,36 @@
+Started GET "/" for ::1 at 2022-03-22 12:05:16 +0200
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /var/lib/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /var/lib/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 32.3ms | Allocations: 671)
+Completed 200 OK in 85ms (Views: 58.5ms | ActiveRecord: 0.0ms | Allocations: 6406)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-22 12:21:51 +0200
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#hello as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/hello.html.erb within layouts/application
+  Rendered pages/hello.html.erb within layouts/application (Duration: 1.8ms | Allocations: 307)
+  Rendered layout layouts/application.html.erb (Duration: 840.7ms | Allocations: 95134)
+Completed 200 OK in 847ms (Views: 843.6ms | ActiveRecord: 0.0ms | Allocations: 98945)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-22 12:22:54 +0200
+Processing by PagesController#hello as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/hello.html.erb within layouts/application
+  Rendered pages/hello.html.erb within layouts/application (Duration: 0.9ms | Allocations: 122)
+  Rendered layout layouts/application.html.erb (Duration: 5.1ms | Allocations: 2525)
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.0ms | Allocations: 3313)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-22 12:23:45 +0200
+Processing by PagesController#hello as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/hello.html.erb within layouts/application
+  Rendered pages/hello.html.erb within layouts/application (Duration: 0.9ms | Allocations: 120)
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 2512)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 3300)
+
+
